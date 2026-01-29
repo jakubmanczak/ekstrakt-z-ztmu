@@ -1,0 +1,13 @@
+[package]
+name = "ztm"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+curl = "0.4.49"
+polars = "0.52.0"
+protobuf = "3.7.2"
+rayon = "1.11.0"
+
+[build-dependencies]
+protobuf-codegen = "3.7.2"
